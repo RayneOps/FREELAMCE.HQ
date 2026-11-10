@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000"><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".0"/><stop offset=".18" stop-color="#fff" stop-opacity=".35"/><stop offset=".3" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></linearGradient></defs><rect width="800" height="1000" fill="#F3E3CF"/><ellipse cx="400" cy="860" rx="330" ry="40" fill="#D2B795" opacity=".5"/><ellipse cx="400" cy="860" rx="220.00000000000003" ry="26.400000000000002" fill="#000" opacity=".16"/><rect x="200" y="560" width="400" height="300" rx="40" fill="#FBF6F0"/><rect x="200" y="560" width="400" height="300" rx="40" fill="url(#sh)"/>
+<rect x="190" y="470" width="420" height="100" rx="22" fill="#D9A441"/><rect x="190" y="470" width="420" height="100" rx="22" fill="url(#sh)"/>
+<rect x="248" y="624" width="304" height="138" rx="10" fill="#FBF6F0" opacity=".92"/>
+<text x="400" y="668" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#1F3A2E" font-style="italic">Oyela</text>
+<line x1="360" y1="684" x2="440" y2="684" stroke="#1F3A2E" stroke-width="1.5" opacity=".6"/>
+<text x="400" y="718" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#1F3A2E">WHIPPED SHEA</text>
+<text x="400" y="744" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#1F3A2E" opacity=".7">BODY BUTTER · 200 G</text></svg>

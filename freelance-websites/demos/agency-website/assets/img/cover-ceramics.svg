@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1250" width="1000" height="1250"><rect width="1000" height="1250" fill="#1B1A17"/>
+<path d="M300 300 C300 260 700 260 700 300 L660 820 C655 880 345 880 340 820Z" fill="#C8B9A6"/>
+<ellipse cx="500" cy="300" rx="200" ry="34" fill="#A8977F"/><ellipse cx="500" cy="300" rx="160" ry="22" fill="#3A332B"/>
+<path d="M320 520 C420 560 580 480 680 520" fill="none" stroke="#7A1F1F" stroke-width="16"/>
+<path d="M330 600 C430 640 570 560 672 600" fill="none" stroke="#7A1F1F" stroke-width="6"/>
+<text x="80" y="1080" font-family="Georgia, 'Times New Roman', serif" font-size="120" fill="#ECE7DE" >Kiln</text><text x="84" y="1150" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ECE7DE" letter-spacing="3" >STUDIO CERAMICS · E-COMMERCE</text></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000"><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".0"/><stop offset=".18" stop-color="#fff" stop-opacity=".35"/><stop offset=".3" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></linearGradient></defs><rect width="800" height="1000" fill="#DCE4D6"/><ellipse cx="400" cy="860" rx="330" ry="40" fill="#AEBCA4" opacity=".5"/><ellipse cx="400" cy="860" rx="140" ry="16.8" fill="#000" opacity=".16"/><path d="M300 510 C300 450 360 440 370 390 H430 C440 440 500 450 500 510 V840 Q500 860 480 860 H320 Q300 860 300 840Z" fill="#B8892F"/>
+<rect x="300" y="390" width="200" height="470" fill="url(#sh)" opacity=".9" rx="20"/>
+<rect x="362" y="310" width="76" height="86" rx="8" fill="#1F3A2E"/>
+<rect x="316" y="560" width="168" height="200" rx="10" fill="#FBF6F0" opacity=".92"/><text x="400" y="615" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#1F3A2E" font-style="italic">Oyela</text>
+<line x1="360" y1="631" x2="440" y2="631" stroke="#1F3A2E" stroke-width="1.5" opacity=".6"/>
+<text x="400" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#1F3A2E">MORINGA</text>
+<text x="400" y="691" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#1F3A2E" opacity=".7">BODY OIL · 100 ML</text></svg>

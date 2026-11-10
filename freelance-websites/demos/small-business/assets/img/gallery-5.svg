@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800"><defs><filter id="e"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.17  0 0 0 0 0.13  0 0 0 0 0.1  0 0 0 .07 0"/></filter></defs><rect width="800" height="800" fill="#F3ECE2"/>
+<rect y="600" width="800" height="200" fill="#E6D7C3"/>
+<g transform="rotate(-12 360 380)">
+<rect x="300" y="380" width="80" height="230" rx="30" fill="#2B201A"/>
+<rect x="318" y="430" width="44" height="10" rx="5" fill="#A67C47"/>
+<circle cx="340" cy="330" r="130" fill="#2B201A"/><circle cx="340" cy="330" r="92" fill="#4A3A2F"/>
+<circle cx="340" cy="330" r="40" fill="#A67C47" opacity=".8"/>
+<rect x="440" y="290" width="200" height="84" rx="16" fill="#2B201A"/><rect x="620" y="280" width="34" height="104" rx="10" fill="#4A3A2F"/>
+</g>
+<g transform="rotate(8 560 640)">
+<rect x="380" y="620" width="300" height="42" rx="21" fill="#B8735A"/>
+<rect x="398" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="418" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="438" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="458" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="478" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="498" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="518" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="538" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="558" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="578" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="598" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="618" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="638" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/><rect x="658" y="604" width="6" height="74" rx="3" fill="#D9C6AE"/>
+<rect x="680" y="628" width="90" height="26" rx="13" fill="#2B201A"/></g>
+<ellipse cx="420" cy="690" rx="300" ry="14" fill="#000" opacity=".08"/>
+<rect width="800" height="800" filter="url(#e)"/></svg>

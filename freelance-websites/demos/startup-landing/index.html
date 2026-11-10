@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tidewell — Weekly planning for small teams (Concept Demo)</title>
+  <meta name="description" content="Concept demo: Tidewell is a fictional weekly-planning tool. Landing page designed and built by Usman — Web Design & Development.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#0B1020">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tidewell — Weekly planning for small teams (Concept Demo)">
+  <meta property="og:description" content="A concept SaaS landing page by Usman — Web Design & Development.">
+  <link rel="icon" href="assets/img/logo-mark.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <aside class="demo-bar" aria-label="Concept demo notice">
+    <p><strong>Concept demo:</strong> Tidewell is a fictional product. This landing page was designed and built by Usman. No data is collected.</p>
+    <a href="../../index.html#work">← Back to Usman’s portfolio</a>
+  </aside>
+
+  <!-- 1. Announcement -->
+  <aside class="announce" aria-label="Announcement">
+    <p><span class="pill">New</span> Tidewell 2.0 is in private beta — decision logs, recurring goals and a calmer inbox. <a href="#early-access">Request access <span aria-hidden="true">→</span></a></p>
+  </aside>
+
+  <!-- 2. Navigation -->
+  <header class="header" data-header>
+    <div class="container header-row">
+      <a class="logo" href="#top" aria-label="Tidewell home">
+        <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#4C6FFF"/><path d="M6 19c3.3 0 3.3-4 6.7-4s3.3 4 6.6 4 3.4-4 6.7-4" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path d="M6 13c3.3 0 3.3-4 6.7-4s3.3 4 6.6 4 3.4-4 6.7-4" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2.6" stroke-linecap="round"/></svg>
+        <span>Tidewell</span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <ul>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#use-cases">Use cases</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a class="btn btn-quiet" href="#" data-demo="Sign in">Sign in</a>
+          <a class="btn btn-primary" href="#early-access">Get early access</a>
+        </div>
+      </nav>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu" data-burger><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 3. Hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="eyebrow">Weekly planning for small teams</p>
+        <h1 id="hero-title">Plan the week. Ship the work. <span>Skip the status meeting.</span></h1>
+        <p class="hero-sub">Tidewell brings your team’s weekly plan, async check-ins and decisions into one calm place — so everyone knows what matters this week without another call.</p>
+        <form class="signup" data-signup novalidate>
+          <label class="sr-only" for="hero-email">Work email</label>
+          <input id="hero-email" type="email" name="email" placeholder="you@company.com" autocomplete="email" required>
+          <button class="btn btn-primary btn-lg" type="submit">Request early access</button>
+          <p class="signup-msg" role="status" aria-live="polite"></p>
+        </form>
+        <p class="hero-note">Free for teams of up to 5 · No credit card required</p>
+      </div>
+
+      <!-- 4. Product preview -->
+      <div class="container preview-wrap" id="product">
+        <div class="preview-tabs" role="tablist" aria-label="Product preview">
+          <button role="tab" id="tab-plan" aria-controls="panel-plan" aria-selected="true" tabindex="0">Weekly plan</button>
+          <button role="tab" id="tab-checkins" aria-controls="panel-checkins" aria-selected="false" tabindex="-1">Check-ins</button>
+          <button role="tab" id="tab-decisions" aria-controls="panel-decisions" aria-selected="false" tabindex="-1">Decisions</button>
+        </div>
+        <div class="app" aria-label="Illustrative Tidewell app interface with sample data">
+          <aside class="app-side" aria-hidden="true">
+            <div class="ws"><span class="ws-icon">S</span><span>Studio team</span></div>
+            <ul>
+              <li class="on"><i></i>This week</li>
+              <li><i></i>Check-ins</li>
+              <li><i></i>Decisions</li>
+              <li><i></i>Goals</li>
+              <li><i></i>People</li>
+            </ul>
+            <div class="side-goal"><small>Q4 goal</small><strong>Launch v2 onboarding</strong><span class="bar"><span style="width:62%"></span></span></div>
+          </aside>
+          <div class="app-main">
+            <div class="app-top">
+              <div><p class="app-week">Week 46 · Nov 9 – 13</p><p class="app-title">Studio team</p></div>
+              <div class="avatars" aria-hidden="true"><span style="--c:#4C6FFF">AO</span><span style="--c:#F2994A">JK</span><span style="--c:#3DDC97">MB</span><span style="--c:#B57BFF">SE</span></div>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-plan" aria-labelledby="tab-plan" tabindex="0">
+              <div class="board">
+                <div class="col">
+                  <p class="col-h"><span class="dot dot-grey"></span>Planned <em>3</em></p>
+                  <div class="task"><p>Write release notes for v2.1</p><div class="task-f"><span class="tag t-blue">Product</span><span class="av" style="--c:#4C6FFF">AO</span></div></div>
+                  <div class="task"><p>Audit empty states</p><div class="task-f"><span class="tag t-purple">Design</span><span class="av" style="--c:#B57BFF">SE</span></div></div>
+                  <div class="task"><p>Plan customer interviews</p><div class="task-f"><span class="tag t-orange">Research</span><span class="av" style="--c:#F2994A">JK</span></div></div>
+                </div>
+                <div class="col">
+                  <p class="col-h"><span class="dot dot-blue"></span>In progress <em>2</em></p>
+                  <div class="task task-hi"><p>Onboarding checklist UI</p><div class="progress"><span style="width:70%"></span></div><div class="task-f"><span class="tag t-purple">Design</span><span class="av" style="--c:#B57BFF">SE</span></div></div>
+                  <div class="task"><p>Calendar sync API</p><div class="progress"><span style="width:40%"></span></div><div class="task-f"><span class="tag t-green">Eng</span><span class="av" style="--c:#3DDC97">MB</span></div></div>
+                </div>
+                <div class="col">
+                  <p class="col-h"><span class="dot dot-green"></span>Done <em>2</em></p>
+                  <div class="task task-done"><p>Pricing page copy</p><div class="task-f"><span class="tag t-blue">Product</span><span class="av" style="--c:#4C6FFF">AO</span></div></div>
+                  <div class="task task-done"><p>Fix invite emails</p><div class="task-f"><span class="tag t-green">Eng</span><span class="av" style="--c:#3DDC97">MB</span></div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-checkins" aria-labelledby="tab-checkins" tabindex="0" hidden>
+              <ul class="checkins">
+                <li><span class="av av-lg" style="--c:#B57BFF">SE</span><div><p class="ci-h"><strong>Sade E.</strong> <small>Today, 9:12</small></p><p>Checklist UI is 70% done. Need copy for step 3 by Wednesday — <span class="mention">@Ada</span> can you take a look?</p><span class="mood mood-good">On track</span></div></li>
+                <li><span class="av av-lg" style="--c:#3DDC97">MB</span><div><p class="ci-h"><strong>Musa B.</strong> <small>Today, 8:40</small></p><p>Calendar sync is blocked on API keys. Working on invite email fixes meanwhile.</p><span class="mood mood-warn">Blocked</span></div></li>
+                <li><span class="av av-lg" style="--c:#F2994A">JK</span><div><p class="ci-h"><strong>Joy K.</strong> <small>Yesterday</small></p><p>Shortlisted 6 people for interviews. Sending invites tomorrow.</p><span class="mood mood-good">On track</span></div></li>
+              </ul>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-decisions" aria-labelledby="tab-decisions" tabindex="0" hidden>
+              <table class="decisions">
+                <caption class="sr-only">Sample decision log</caption>
+                <thead><tr><th scope="col">Decision</th><th scope="col">Owner</th><th scope="col">Status</th></tr></thead>
+                <tbody>
+                  <tr><td>Ship onboarding checklist before calendar sync</td><td><span class="av" style="--c:#4C6FFF">AO</span></td><td><span class="st st-ok">Agreed</span></td></tr>
+                  <tr><td>Move weekly review to Friday mornings</td><td><span class="av" style="--c:#F2994A">JK</span></td><td><span class="st st-ok">Agreed</span></td></tr>
+                  <tr><td>Use magic links instead of passwords</td><td><span class="av" style="--c:#3DDC97">MB</span></td><td><span class="st st-open">In review</span></td></tr>
+                  <tr><td>Retire the old mobile beta</td><td><span class="av" style="--c:#B57BFF">SE</span></td><td><span class="st st-open">In review</span></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <p class="preview-caption">Illustrative interface with sample data.</p>
+      </div>
+    </section>
+
+    <!-- 5. Problem -->
+    <section class="section" aria-labelledby="problem-title">
+      <div class="container">
+        <div class="head-center">
+          <p class="eyebrow eyebrow-dark">The problem</p>
+          <h2 id="problem-title">Your team’s week is scattered across five different tools.</h2>
+          <p class="lede">Plans live in a doc, updates in chat, decisions in someone’s head. Small teams lose hours each week just figuring out what’s going on.</p>
+        </div>
+        <div class="problems">
+          <article><span class="p-num">01</span><h3>Status meetings that could be a message</h3><p>Everyone stops working to say what they’re working on.</p></article>
+          <article><span class="p-num">02</span><h3>Priorities that drift by Wednesday</h3><p>The Monday plan is forgotten as soon as new requests arrive.</p></article>
+          <article><span class="p-num">03</span><h3>Decisions nobody can find later</h3><p>The “why” behind a choice disappears into a chat thread.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Features -->
+    <section class="section section-soft" aria-labelledby="features-title">
+      <div class="container">
+        <div class="head-split">
+          <div>
+            <p class="eyebrow eyebrow-dark">Features</p>
+            <h2 id="features-title">Everything a small team needs. Nothing it doesn’t.</h2>
+          </div>
+          <p class="lede">Tidewell is deliberately focused: one weekly rhythm, three simple views, zero setup.</p>
+        </div>
+        <div class="features">
+          <article class="feature"><span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span><h3>Weekly plans</h3><p>Agree on the week’s priorities on Monday, then track them on one board.</p></article>
+          <article class="feature"><span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></span><h3>Async check-ins</h3><p>Short written updates replace daily stand-ups. Read them when it suits you.</p></article>
+          <article class="feature"><span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h11l3 3v13H5z"/><path d="M9 12l2 2 4-4"/></svg></span><h3>Decision log</h3><p>Record what was decided, by whom and why — searchable forever.</p></article>
+          <article class="feature"><span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".5"/></svg></span><h3>Goals that connect</h3><p>Link weekly tasks to quarterly goals so progress is always visible.</p></article>
+          <article class="feature"><span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 8 3 8H3s3-1 3-8M10 20a2 2 0 0 0 4 0"/></svg></span><h3>A calmer inbox</h3><p>One digest per day instead of a notification for every change.</p></article>
+          <article class="feature"><span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 7H6a4 4 0 0 0 0 8h3M15 7h3a4 4 0 0 1 0 8h-3M8 11h8"/></svg></span><h3>Works with your tools</h3><p>Planned integrations with calendars, chat and code hosting.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. How it works -->
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <div class="head-center">
+          <p class="eyebrow eyebrow-dark">How it works</p>
+          <h2 id="how-title">A weekly rhythm in three steps</h2>
+        </div>
+        <ol class="steps">
+          <li><span class="step-n">1</span><h3>Plan on Monday</h3><p>Each person adds their priorities. Tidewell suggests unfinished work from last week.</p><div class="step-vis" aria-hidden="true"><span></span><span></span><span class="s-short"></span></div></li>
+          <li><span class="step-n">2</span><h3>Check in async</h3><p>A two-minute written update each day replaces the stand-up meeting.</p><div class="step-vis step-vis-chat" aria-hidden="true"><span></span><span class="s-right"></span><span></span></div></li>
+          <li><span class="step-n">3</span><h3>Review on Friday</h3><p>See what shipped, log decisions and carry over what’s left — in fifteen minutes.</p><div class="step-vis step-vis-check" aria-hidden="true"><span></span><span></span><span></span></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 8. Use cases -->
+    <section class="section section-soft" id="use-cases" aria-labelledby="uses-title">
+      <div class="container">
+        <div class="head-split">
+          <div>
+            <p class="eyebrow eyebrow-dark">Use cases</p>
+            <h2 id="uses-title">Built for teams of 3 to 30</h2>
+          </div>
+          <p class="lede">From product squads to agencies, Tidewell fits any team that works in weekly cycles.</p>
+        </div>
+        <div class="uses">
+          <article class="use"><h3>Product teams</h3><p>Keep design, engineering and product aligned on what ships this week.</p><ul><li>Sprint-lite planning</li><li>Release decision log</li></ul></article>
+          <article class="use"><h3>Agencies &amp; studios</h3><p>See every client project’s weekly priorities in one place.</p><ul><li>Per-client boards</li><li>Shareable weekly summaries</li></ul></article>
+          <article class="use"><h3>Remote startups</h3><p>Work across time zones without losing the thread.</p><ul><li>Async check-ins</li><li>Daily digest email</li></ul></article>
+          <article class="use"><h3>Operations teams</h3><p>Track recurring work alongside one-off projects.</p><ul><li>Recurring tasks</li><li>Goal tracking</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Pricing -->
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="head-center">
+          <p class="eyebrow eyebrow-dark">Pricing</p>
+          <h2 id="pricing-title">Simple pricing that grows with you</h2>
+          <div class="billing" role="group" aria-label="Billing period">
+            <button type="button" class="is-on" aria-pressed="true" data-billing="monthly">Monthly</button>
+            <button type="button" aria-pressed="false" data-billing="annual">Annual <span class="save">Save 20%</span></button>
+          </div>
+        </div>
+        <div class="plans">
+          <article class="plan">
+            <h3>Starter</h3>
+            <p class="plan-price"><span class="amt">$0</span><span class="per">forever</span></p>
+            <p class="plan-desc">For small teams getting into a weekly rhythm.</p>
+            <ul><li>Up to 5 members</li><li>Weekly plans &amp; check-ins</li><li>30-day history</li></ul>
+            <a class="btn btn-outline" href="#early-access">Join the beta</a>
+          </article>
+          <article class="plan plan-hi">
+            <h3>Team</h3>
+            <p class="plan-price"><span class="amt" data-monthly="$8" data-annual="$6.40">$8</span><span class="per">per member / month</span></p>
+            <p class="plan-note" data-billing-note>Billed monthly</p>
+            <p class="plan-desc">For growing teams that need history and goals.</p>
+            <ul><li>Unlimited members</li><li>Decision log &amp; goals</li><li>Unlimited history</li><li>Daily digest email</li></ul>
+            <a class="btn btn-primary" href="#early-access">Request early access</a>
+          </article>
+          <article class="plan">
+            <h3>Business</h3>
+            <p class="plan-price"><span class="amt">Custom</span></p>
+            <p class="plan-desc">For organisations with security and admin needs.</p>
+            <ul><li>Everything in Team</li><li>SSO &amp; audit log</li><li>Priority support</li></ul>
+            <a class="btn btn-outline" href="#" data-demo="Contact sales">Contact sales</a>
+          </article>
+        </div>
+        <p class="pricing-foot">Sample pricing for a fictional product, shown in USD.</p>
+      </div>
+    </section>
+
+    <!-- 10. FAQ -->
+    <section class="section section-soft" id="faq" aria-labelledby="faq-title">
+      <div class="container faq">
+        <div>
+          <p class="eyebrow eyebrow-dark">FAQ</p>
+          <h2 id="faq-title">Questions before you start?</h2>
+          <p class="lede">Can’t find an answer? <a href="#" data-demo="Email support">Email the team</a>.</p>
+        </div>
+        <div class="faq-list">
+          <details><summary>Who is Tidewell for?</summary><p>Teams of roughly 3–30 people who plan work in weekly cycles — product teams, agencies, startups and operations teams.</p></details>
+          <details><summary>Does it replace our project management tool?</summary><p>For many small teams, yes. Larger teams often use Tidewell for the weekly layer on top of their existing tracker.</p></details>
+          <details><summary>How does the private beta work?</summary><p>Request access with your work email. We invite teams in small groups and ask for feedback along the way.</p></details>
+          <details><summary>Can I cancel any time?</summary><p>Yes. Monthly plans can be cancelled at any time, and you can export your data whenever you like.</p></details>
+          <details><summary>Where is our data stored?</summary><p>All data is encrypted in transit and at rest. Business plans can request a data-processing agreement.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Final CTA -->
+    <section class="cta" id="early-access" aria-labelledby="cta-title">
+      <div class="container cta-inner">
+        <h2 id="cta-title">Give your team a calmer week.</h2>
+        <p>Join the Tidewell private beta. Setup takes five minutes.</p>
+        <form class="signup signup-dark" data-signup novalidate>
+          <label class="sr-only" for="cta-email">Work email</label>
+          <input id="cta-email" type="email" name="email" placeholder="you@company.com" autocomplete="email" required>
+          <button class="btn btn-primary btn-lg" type="submit">Request early access</button>
+          <p class="signup-msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 12. Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="logo logo-light" href="#top"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="#4C6FFF"/><path d="M6 19c3.3 0 3.3-4 6.7-4s3.3 4 6.6 4 3.4-4 6.7-4" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg><span>Tidewell</span></a>
+        <p>Weekly planning for small teams.</p>
+      </div>
+      <nav aria-label="Footer: product"><h2>Product</h2><ul><li><a href="#product">Overview</a></li><li><a href="#how">How it works</a></li><li><a href="#pricing">Pricing</a></li></ul></nav>
+      <nav aria-label="Footer: company"><h2>Company</h2><ul><li><a href="#" data-demo="About">About</a></li><li><a href="#" data-demo="Blog">Blog</a></li><li><a href="#" data-demo="Careers">Careers</a></li></ul></nav>
+      <nav aria-label="Footer: legal"><h2>Legal</h2><ul><li><a href="#" data-demo="Privacy">Privacy</a></li><li><a href="#" data-demo="Terms">Terms</a></li></ul></nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-year>2026</span> Tidewell (fictional). Concept landing page by <a href="../../index.html">Usman — Web Design &amp; Development</a>.</p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

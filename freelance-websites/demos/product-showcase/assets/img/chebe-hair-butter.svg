@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000"><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".0"/><stop offset=".18" stop-color="#fff" stop-opacity=".35"/><stop offset=".3" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></linearGradient></defs><rect width="800" height="1000" fill="#EDE0D4"/><ellipse cx="400" cy="860" rx="330" ry="40" fill="#CDB49E" opacity=".5"/><ellipse cx="400" cy="860" rx="181.50000000000003" ry="21.78" fill="#000" opacity=".16"/><rect x="235" y="610" width="330" height="250" rx="40" fill="#C0643F"/><rect x="235" y="610" width="330" height="250" rx="40" fill="url(#sh)"/>
+<rect x="225" y="520" width="350" height="100" rx="22" fill="#1F3A2E"/><rect x="225" y="520" width="350" height="100" rx="22" fill="url(#sh)"/>
+<rect x="274.6" y="656" width="250.8" height="138" rx="10" fill="#FBF6F0" opacity=".92"/>
+<text x="400" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#1F3A2E" font-style="italic">Oyela</text>
+<line x1="360" y1="716" x2="440" y2="716" stroke="#1F3A2E" stroke-width="1.5" opacity=".6"/>
+<text x="400" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" letter-spacing="3" fill="#1F3A2E">CHEBE</text>
+<text x="400" y="776" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="2" fill="#1F3A2E" opacity=".7">HAIR BUTTER · 150 G</text></svg>

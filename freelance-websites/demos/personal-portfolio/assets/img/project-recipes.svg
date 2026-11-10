@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+<rect width="800" height="560" fill="#F4E4D4"/>
+<g><rect x="70" y="68" width="660" height="440" rx="14" fill="#000" opacity=".08"/>
+<rect x="70" y="60" width="660" height="440" rx="14" fill="#FFFDF9"/>
+<rect x="70" y="60" width="660" height="34" rx="14" fill="#C2552D"/><rect x="70" y="80" width="660" height="14" fill="#C2552D"/>
+<circle cx="90" cy="77" r="5" fill="#fff" opacity=".7"/><circle cx="108" cy="77" r="5" fill="#fff" opacity=".5"/><circle cx="126" cy="77" r="5" fill="#fff" opacity=".35"/></g><text x="100" y="150" font-family="Georgia" font-size="40" fill="#2B1D16">Sunday Kitchen</text><rect x="100" y="168" width="260" height="10" rx="5" fill="#2B1D16" opacity="0.3"/><g transform="translate(100 205)"><rect x="0" y="0" width="185" height="150" rx="12" fill="#E9B98F" opacity="1"/>
+<circle cx="92" cy="75" r="46" fill="#fff" opacity=".55"/><circle cx="92" cy="75" r="30" fill="#C2552D" opacity=".7"/>
+<rect x="0" y="168" width="150" height="11" rx="5" fill="#2B1D16" opacity="0.8"/><rect x="0" y="188" width="100" height="9" rx="4" fill="#2B1D16" opacity="0.3"/></g><g transform="translate(305 205)"><rect x="0" y="0" width="185" height="150" rx="12" fill="#9DB98A" opacity="1"/>
+<circle cx="92" cy="75" r="46" fill="#fff" opacity=".55"/><circle cx="92" cy="75" r="30" fill="#5E7F4B" opacity=".7"/>
+<rect x="0" y="168" width="150" height="11" rx="5" fill="#2B1D16" opacity="0.8"/><rect x="0" y="188" width="100" height="9" rx="4" fill="#2B1D16" opacity="0.3"/></g><g transform="translate(510 205)"><rect x="0" y="0" width="185" height="150" rx="12" fill="#E7D08A" opacity="1"/>
+<circle cx="92" cy="75" r="46" fill="#fff" opacity=".55"/><circle cx="92" cy="75" r="30" fill="#C9962B" opacity=".7"/>
+<rect x="0" y="168" width="150" height="11" rx="5" fill="#2B1D16" opacity="0.8"/><rect x="0" y="188" width="100" height="9" rx="4" fill="#2B1D16" opacity="0.3"/></g><rect x="100" y="430" width="130" height="40" rx="20" fill="#C2552D" opacity="1"/>
+</svg>

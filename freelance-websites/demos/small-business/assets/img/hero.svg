@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" width="1200" height="1400"><defs><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 0.17  0 0 0 0 0.13  0 0 0 0 0.1  0 0 0 .07 0"/></filter><linearGradient id="light" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="1400" fill="#E6D7C3"/>
+<rect y="1020" width="1200" height="380" fill="#D9C6AE"/>
+<path d="M300 980 V460 A300 300 0 0 1 900 460 V980Z" fill="#F3ECE2"/>
+<path d="M340 960 V460 A260 260 0 0 1 860 460 V960Z" fill="#EFE3D2"/>
+<path d="M340 960 L860 960 L860 460 Z" fill="url(#light)" opacity=".7"/>
+<rect x="250" y="975" width="700" height="18" rx="4" fill="#A67C47"/>
+<g><rect x="430" y="880" width="50" height="95" rx="11" fill="#2B201A"/>
+<rect x="445" y="862.9" width="20" height="19" rx="3" fill="#A67C47"/>
+<rect x="437.5" y="913.25" width="35" height="28.5" rx="3" fill="#FBF8F3" opacity=".85"/></g><g><rect x="495" y="900" width="40" height="75" rx="8.8" fill="#B8735A"/>
+<rect x="507" y="886.5" width="16" height="15" rx="3" fill="#2B201A"/>
+<rect x="501" y="926.25" width="28" height="22.5" rx="3" fill="#FBF8F3" opacity=".85"/></g><g><rect x="800" y="890" width="46" height="85" rx="10.12" fill="#FBF8F3"/>
+<rect x="813.8" y="874.7" width="18.400000000000002" height="17" rx="3" fill="#A67C47"/>
+<rect x="806.9" y="919.75" width="32.199999999999996" height="25.5" rx="3" fill="#E6D7C3" opacity=".85"/></g>
+<g transform="translate(600 1220) scale(1.55)">
+<rect x="-70" y="-230" width="140" height="160" rx="60" fill="#2B201A"/>
+<rect x="-95" y="-90" width="190" height="60" rx="26" fill="#2B201A"/>
+<rect x="-110" y="-120" width="30" height="80" rx="14" fill="#4A3A2F"/><rect x="80" y="-120" width="30" height="80" rx="14" fill="#4A3A2F"/>
+<rect x="-8" y="-30" width="16" height="70" fill="#A67C47"/>
+<ellipse cx="0" cy="48" rx="80" ry="12" fill="#A67C47"/></g>
+<g transform="translate(1040 1020) scale(1.6)">
+<path d="M0 0 C-40 -60 -70 -90 -60 -150 C-20 -110 -5 -70 0 0Z" fill="#8C9A84"/>
+<path d="M0 0 C30 -70 70 -100 80 -160 C30 -130 10 -80 0 0Z" fill="#76866F"/>
+<path d="M0 0 C-5 -80 5 -140 20 -190 C35 -130 20 -70 0 0Z" fill="#9AA892"/>
+<path d="M-38 0 H38 L30 70 H-30Z" fill="#B8735A"/><rect x="-42" y="-6" width="84" height="12" rx="3" fill="#B8735A"/></g>
+<circle cx="140" cy="300" r="70" fill="#A67C47" opacity=".9"/><rect x="137" y="0" width="6" height="235" fill="#4A3A2F"/>
+<rect width="1200" height="1400" filter="url(#g)"/></svg>

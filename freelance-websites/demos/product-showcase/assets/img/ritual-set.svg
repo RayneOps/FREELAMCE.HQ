@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000"><defs><linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".0"/><stop offset=".18" stop-color="#fff" stop-opacity=".35"/><stop offset=".3" stop-color="#fff" stop-opacity="0"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".18"/></linearGradient></defs><rect width="800" height="1000" fill="#EFE6DC"/><ellipse cx="400" cy="860" rx="330" ry="40" fill="#CDBDAA" opacity=".5"/><ellipse cx="400" cy="860" rx="260" ry="31.2" fill="#000" opacity=".16"/><rect x="160" y="480" width="480" height="380" rx="10" fill="#1F3A2E"/><rect x="160" y="480" width="480" height="380" rx="10" fill="url(#sh)"/>
+<rect x="140" y="440" width="520" height="80" rx="8" fill="#1F3A2E"/><rect x="140" y="440" width="520" height="80" rx="8" fill="#000" opacity=".06"/>
+<rect x="370" y="440" width="60" height="420" fill="#D9A441"/>
+<path d="M400 440 C340 360 280 380 320 440Z M400 440 C460 360 520 380 480 440Z" fill="#D9A441"/>
+<rect x="190" y="600" width="160" height="190" rx="8" fill="#FBF6F0" opacity=".92"/>
+<text x="270" y="660" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#1F3A2E" font-style="italic">Oyela</text>
+<text x="270" y="700" text-anchor="middle" font-family="Arial" font-size="15" letter-spacing="2" fill="#1F3A2E">THE RITUAL</text>
+<text x="270" y="726" text-anchor="middle" font-family="Arial" font-size="12" letter-spacing="2" fill="#1F3A2E" opacity=".7">GIFT SET</text></svg>

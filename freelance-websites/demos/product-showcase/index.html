@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oyela Botanics — Shea-Based Skincare (Concept Demo)</title>
+  <meta name="description" content="Concept demo: Oyela Botanics is a fictional skincare brand. Product showcase with WhatsApp ordering, designed and built by Usman — Web Design & Development.">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#F4ECE4">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Oyela Botanics — Shea-Based Skincare (Concept Demo)">
+  <meta property="og:description" content="A concept product showcase website by Usman — Web Design & Development.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='16' fill='%231F3A2E'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' font-style='italic' fill='%23D9A441' text-anchor='middle'%3EO%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/bodoni-moda-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <aside class="demo-bar" aria-label="Concept demo notice">
+    <p><b>Concept demo:</b> Oyela Botanics is a fictional brand. Products and prices are samples — nothing can be bought here.</p>
+    <a href="../../index.html#work">← Back to Usman’s portfolio</a>
+  </aside>
+
+  <header class="header" data-header>
+    <div class="wrap header-row">
+      <a class="logo" href="#top"><span>Oyela</span><small>Botanics</small></a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <ul>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#story">Our story</a></li>
+          <li><a href="#ordering">How to order</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <button class="bag-btn" type="button" data-open-bag aria-haspopup="dialog">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12.5H6z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 10V6.5a3 3 0 0 1 6 0V10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <span>Order list</span> <span class="bag-count" data-bag-count>0</span><span class="sr-only"> items</span>
+      </button>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" data-menu>Menu</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. Brand hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">Small-batch skincare · Made with West African shea</p>
+          <h1 id="hero-title">Skin food, <em>rooted</em> in tradition.</h1>
+          <p class="hero-text">Rich butters, gentle oils and honest ingredients — made in small batches and delivered to your door. Browse the collection, build your order list and send it to us on WhatsApp.</p>
+          <div class="hero-actions">
+            <a class="btn btn-green btn-lg" href="#shop">Shop the collection</a>
+            <a class="btn btn-line btn-lg" href="#ordering">How ordering works</a>
+          </div>
+          <ul class="hero-points">
+            <li>Unrefined shea butter</li><li>No added fragrance options</li><li>Recyclable packaging</li>
+          </ul>
+        </div>
+        <div class="hero-art">
+          <img src="assets/img/hero.svg" width="1000" height="1100" alt="Illustration of Oyela body oil, body butter and serum against a golden sun" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Featured collection -->
+    <section class="section featured" aria-labelledby="featured-title">
+      <div class="wrap featured-grid">
+        <img src="assets/img/ritual-set.svg" width="800" height="1000" loading="lazy" alt="Illustration of The Ritual gift set: a deep green box tied with a gold ribbon">
+        <div class="featured-copy">
+          <p class="kicker">Featured collection</p>
+          <h2 id="featured-title">The Ritual Set</h2>
+          <p>Our full evening routine in one box: Baobab Cleanser, Hibiscus Glow Serum and Shea Cloud Face Cream, tied with a ribbon and ready to give.</p>
+          <p class="featured-price"><span>₦38,000</span> <small>Contents bought separately: ₦37,000 + gift box</small></p>
+          <div class="featured-actions">
+            <button class="btn btn-green" type="button" data-add="ritual-set">Add to order list</button>
+            <button class="btn btn-line" type="button" data-details="ritual-set">View details</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Categories -->
+    <section class="section section-tint" id="categories" aria-labelledby="cat-title">
+      <div class="wrap">
+        <div class="head">
+          <p class="kicker">Shop by category</p>
+          <h2 id="cat-title">Find what your skin needs</h2>
+        </div>
+        <ul class="categories">
+          <li><a href="#shop" data-jump="face"><img src="assets/img/hibiscus-serum.svg" width="800" height="1000" loading="lazy" alt=""><span>Face</span><small>Cleansers, serums &amp; creams</small></a></li>
+          <li><a href="#shop" data-jump="body"><img src="assets/img/whipped-body-butter.svg" width="800" height="1000" loading="lazy" alt=""><span>Body</span><small>Butters, oils &amp; soap</small></a></li>
+          <li><a href="#shop" data-jump="hair"><img src="assets/img/rosemary-scalp-oil.svg" width="800" height="1000" loading="lazy" alt=""><span>Hair</span><small>Butters &amp; scalp care</small></a></li>
+          <li><a href="#shop" data-jump="sets"><img src="assets/img/ritual-set.svg" width="800" height="1000" loading="lazy" alt=""><span>Gift sets</span><small>Ready to give</small></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4 & 5. Product gallery + descriptions -->
+    <section class="section" id="shop" aria-labelledby="shop-title">
+      <div class="wrap">
+        <div class="shop-head">
+          <div>
+            <p class="kicker">The collection</p>
+            <h2 id="shop-title">All products</h2>
+          </div>
+          <div class="filters" role="group" aria-label="Filter products by category">
+            <button type="button" aria-pressed="true" data-filter="all">All</button>
+            <button type="button" aria-pressed="false" data-filter="face">Face</button>
+            <button type="button" aria-pressed="false" data-filter="body">Body</button>
+            <button type="button" aria-pressed="false" data-filter="hair">Hair</button>
+            <button type="button" aria-pressed="false" data-filter="sets">Gift sets</button>
+          </div>
+        </div>
+        <p class="sr-only" aria-live="polite" data-shop-status></p>
+
+        <ul class="products" data-products>
+          <li class="product" data-category="face" data-id="shea-cloud-cream">
+            <div class="p-img" data-details="shea-cloud-cream"><img src="assets/img/shea-cloud-cream.svg" width="800" height="1000" loading="lazy" alt="Illustration of Shea Cloud Face Cream jar"></div>
+            <div class="p-body"><p class="p-cat">Face · 50 ml</p><h3>Shea Cloud Face Cream</h3><p class="p-desc">A light, whipped daily moisturiser for normal to dry skin.</p>
+              <div class="p-foot"><span class="p-price">₦12,500</span><span class="p-actions"><button type="button" class="link" data-details="shea-cloud-cream">Details<span class="sr-only">: Shea Cloud Face Cream</span></button><button type="button" class="add" data-add="shea-cloud-cream" aria-label="Add Shea Cloud Face Cream to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="face" data-id="hibiscus-serum">
+            <div class="p-img" data-details="hibiscus-serum"><img src="assets/img/hibiscus-serum.svg" width="800" height="1000" loading="lazy" alt="Illustration of Hibiscus Glow Serum dropper bottle"></div>
+            <div class="p-body"><p class="p-cat">Face · 30 ml</p><h3>Hibiscus Glow Serum</h3><p class="p-desc">A brightening serum with hibiscus extract and niacinamide.</p>
+              <div class="p-foot"><span class="p-price">₦15,000</span><span class="p-actions"><button type="button" class="link" data-details="hibiscus-serum">Details<span class="sr-only">: Hibiscus Glow Serum</span></button><button type="button" class="add" data-add="hibiscus-serum" aria-label="Add Hibiscus Glow Serum to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="face" data-id="baobab-cleanser">
+            <div class="p-img" data-details="baobab-cleanser"><img src="assets/img/baobab-cleanser.svg" width="800" height="1000" loading="lazy" alt="Illustration of Baobab Gentle Cleanser pump bottle"></div>
+            <div class="p-body"><p class="p-cat">Face · 150 ml</p><h3>Baobab Gentle Cleanser</h3><p class="p-desc">A creamy, low-foam cleanser that won’t strip the skin.</p>
+              <div class="p-foot"><span class="p-price">₦9,500</span><span class="p-actions"><button type="button" class="link" data-details="baobab-cleanser">Details<span class="sr-only">: Baobab Gentle Cleanser</span></button><button type="button" class="add" data-add="baobab-cleanser" aria-label="Add Baobab Gentle Cleanser to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="body" data-id="whipped-body-butter">
+            <div class="p-img" data-details="whipped-body-butter"><img src="assets/img/whipped-body-butter.svg" width="800" height="1000" loading="lazy" alt="Illustration of Whipped Shea Body Butter jar"></div>
+            <div class="p-body"><p class="p-cat">Body · 200 g</p><h3>Whipped Shea Body Butter</h3><p class="p-desc">Our signature butter — rich, airy and deeply nourishing.</p>
+              <div class="p-foot"><span class="p-price">₦11,000</span><span class="p-actions"><button type="button" class="link" data-details="whipped-body-butter">Details<span class="sr-only">: Whipped Shea Body Butter</span></button><button type="button" class="add" data-add="whipped-body-butter" aria-label="Add Whipped Shea Body Butter to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="body" data-id="black-soap">
+            <div class="p-img" data-details="black-soap"><img src="assets/img/black-soap.svg" width="800" height="1000" loading="lazy" alt="Illustration of Black Soap Bar"></div>
+            <div class="p-body"><p class="p-cat">Body · 120 g</p><h3>Black Soap Bar</h3><p class="p-desc">A traditional black soap, gently balanced for everyday use.</p>
+              <div class="p-foot"><span class="p-price">₦4,500</span><span class="p-actions"><button type="button" class="link" data-details="black-soap">Details<span class="sr-only">: Black Soap Bar</span></button><button type="button" class="add" data-add="black-soap" aria-label="Add Black Soap Bar to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="body" data-id="moringa-body-oil">
+            <div class="p-img" data-details="moringa-body-oil"><img src="assets/img/moringa-body-oil.svg" width="800" height="1000" loading="lazy" alt="Illustration of Moringa Body Oil bottle"></div>
+            <div class="p-body"><p class="p-cat">Body · 100 ml</p><h3>Moringa Body Oil</h3><p class="p-desc">A silky dry oil that absorbs quickly and leaves a soft sheen.</p>
+              <div class="p-foot"><span class="p-price">₦13,500</span><span class="p-actions"><button type="button" class="link" data-details="moringa-body-oil">Details<span class="sr-only">: Moringa Body Oil</span></button><button type="button" class="add" data-add="moringa-body-oil" aria-label="Add Moringa Body Oil to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="hair" data-id="chebe-hair-butter">
+            <div class="p-img" data-details="chebe-hair-butter"><img src="assets/img/chebe-hair-butter.svg" width="800" height="1000" loading="lazy" alt="Illustration of Chebe Hair Butter jar"></div>
+            <div class="p-body"><p class="p-cat">Hair · 150 g</p><h3>Chebe Hair Butter</h3><p class="p-desc">A sealing butter for length retention and soft, defined ends.</p>
+              <div class="p-foot"><span class="p-price">₦10,000</span><span class="p-actions"><button type="button" class="link" data-details="chebe-hair-butter">Details<span class="sr-only">: Chebe Hair Butter</span></button><button type="button" class="add" data-add="chebe-hair-butter" aria-label="Add Chebe Hair Butter to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="hair" data-id="rosemary-scalp-oil">
+            <div class="p-img" data-details="rosemary-scalp-oil"><img src="assets/img/rosemary-scalp-oil.svg" width="800" height="1000" loading="lazy" alt="Illustration of Rosemary Scalp Oil dropper bottle"></div>
+            <div class="p-body"><p class="p-cat">Hair · 50 ml</p><h3>Rosemary Scalp Oil</h3><p class="p-desc">A lightweight scalp oil with rosemary and peppermint.</p>
+              <div class="p-foot"><span class="p-price">₦8,500</span><span class="p-actions"><button type="button" class="link" data-details="rosemary-scalp-oil">Details<span class="sr-only">: Rosemary Scalp Oil</span></button><button type="button" class="add" data-add="rosemary-scalp-oil" aria-label="Add Rosemary Scalp Oil to order list">+</button></span></div></div>
+          </li>
+          <li class="product" data-category="sets" data-id="ritual-set">
+            <div class="p-img" data-details="ritual-set"><img src="assets/img/ritual-set.svg" width="800" height="1000" loading="lazy" alt="Illustration of The Ritual Set gift box"></div>
+            <div class="p-body"><p class="p-cat">Gift set · 3 items</p><h3>The Ritual Set</h3><p class="p-desc">Cleanser, serum and face cream in a ribboned gift box.</p>
+              <div class="p-foot"><span class="p-price">₦38,000</span><span class="p-actions"><button type="button" class="link" data-details="ritual-set">Details<span class="sr-only">: The Ritual Set</span></button><button type="button" class="add" data-add="ritual-set" aria-label="Add The Ritual Set to order list">+</button></span></div></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. Brand story -->
+    <section class="section story" id="story" aria-labelledby="story-title">
+      <div class="wrap story-grid">
+        <img src="assets/img/story.svg" width="900" height="1000" loading="lazy" alt="Illustration of shea nuts and whipped shea butter in a terracotta bowl with leaves">
+        <div>
+          <p class="kicker">Our story</p>
+          <h2 id="story-title">From our grandmother’s kitchen to your shelf.</h2>
+          <p>Oyela began with a family recipe: shea butter, slowly whipped with oils by hand. We still make every batch in small quantities, so each jar is fresh when it reaches you.</p>
+          <p>We keep our ingredient lists short and readable, choose recyclable packaging wherever we can, and only make products we use ourselves.</p>
+          <dl class="story-facts">
+            <div><dt>Made</dt><dd>In small batches</dd></div>
+            <div><dt>Ingredients</dt><dd>Short &amp; readable</dd></div>
+            <div><dt>Packaging</dt><dd>Glass &amp; recyclable</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Ordering information -->
+    <section class="section section-tint" id="ordering" aria-labelledby="order-title">
+      <div class="wrap">
+        <div class="head">
+          <p class="kicker">How to order</p>
+          <h2 id="order-title">Ordering is a simple conversation</h2>
+        </div>
+        <ol class="order-steps">
+          <li><span>1</span><h3>Build your list</h3><p>Tap “+” on any product to add it to your order list and adjust quantities.</p></li>
+          <li><span>2</span><h3>Send on WhatsApp</h3><p>Your list becomes a ready-written WhatsApp message to our team.</p></li>
+          <li><span>3</span><h3>Confirm &amp; pay</h3><p>We confirm availability, delivery cost and payment details in the chat.</p></li>
+          <li><span>4</span><h3>Delivery</h3><p>Your order is packed by hand and sent to your address.</p></li>
+        </ol>
+        <p class="order-note">There is no online checkout. Prices, delivery fees and payment are always confirmed with you directly before anything is paid.</p>
+      </div>
+    </section>
+
+    <!-- 7. FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq">
+        <div>
+          <p class="kicker">FAQ</p>
+          <h2 id="faq-title">Good to know</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>Are your products suitable for sensitive skin?</summary><p>Most of our products are fragrance-free or lightly scented. If you have sensitive skin, patch-test first and ask us about specific ingredients.</p></details>
+          <details><summary>How long do the products last?</summary><p>Unopened, most products keep for 12 months. Each label shows the batch date and a recommended use-by period after opening.</p></details>
+          <details><summary>Where do you deliver?</summary><p>Delivery areas and costs are confirmed on WhatsApp when you place your order.</p></details>
+          <details><summary>Can I return a product?</summary><p>Unopened products can be returned within 7 days. Message us and we’ll arrange it.</p></details>
+          <details><summary>Do you offer wholesale?</summary><p>Yes, for salons and boutiques. Send us a message with your business details.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Contact CTA -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="wrap cta-inner">
+        <h2 id="cta-title">Questions about your skin? <em>Ask us.</em></h2>
+        <p>Our team is happy to recommend a routine. Send us a message — we usually reply the same day.</p>
+        <button class="btn btn-gold btn-lg" type="button" data-chat>Chat on WhatsApp</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- 10. Footer -->
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div><a class="logo logo-light" href="#top"><span>Oyela</span><small>Botanics</small></a><p>Small-batch skincare made with West African shea.</p></div>
+      <nav aria-label="Footer: shop"><h2>Shop</h2><ul><li><a href="#shop" data-jump="face">Face</a></li><li><a href="#shop" data-jump="body">Body</a></li><li><a href="#shop" data-jump="hair">Hair</a></li><li><a href="#shop" data-jump="sets">Gift sets</a></li></ul></nav>
+      <nav aria-label="Footer: help"><h2>Help</h2><ul><li><a href="#ordering">How to order</a></li><li><a href="#faq">FAQ</a></li><li><a href="#story">Our story</a></li></ul></nav>
+    </div>
+    <div class="wrap footer-bottom"><p>© <span data-year>2026</span> Oyela Botanics (fictional brand). Concept website by <a href="../../index.html">Usman — Web Design &amp; Development</a>.</p></div>
+  </footer>
+
+  <!-- Product details dialog -->
+  <dialog class="pd" data-product-dialog aria-labelledby="pd-name">
+    <div class="pd-grid">
+      <div class="pd-media"><img alt="" data-pd-img></div>
+      <div class="pd-body">
+        <button class="close" type="button" data-pd-close aria-label="Close product details">×</button>
+        <p class="p-cat" data-pd-cat></p>
+        <h2 id="pd-name" data-pd-name></h2>
+        <p class="pd-price" data-pd-price></p>
+        <p data-pd-desc></p>
+        <h3>Key ingredients</h3>
+        <p data-pd-ingredients></p>
+        <h3>How to use</h3>
+        <p data-pd-use></p>
+        <div class="qty-row">
+          <div class="qty" role="group" aria-label="Quantity">
+            <button type="button" data-qty-dec aria-label="Decrease quantity">−</button>
+            <output data-qty aria-live="polite">1</output>
+            <button type="button" data-qty-inc aria-label="Increase quantity">+</button>
+          </div>
+          <button class="btn btn-green" type="button" data-pd-add>Add to order list</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Order list drawer -->
+  <dialog class="bag" data-bag aria-labelledby="bag-title">
+    <div class="bag-inner">
+      <div class="bag-head">
+        <h2 id="bag-title">Your order list</h2>
+        <button class="close" type="button" data-bag-close aria-label="Close order list">×</button>
+      </div>
+      <p class="bag-empty" data-bag-empty>Your list is empty. Add products with the “+” button.</p>
+      <ul class="bag-items" data-bag-items></ul>
+      <div class="bag-foot" data-bag-foot hidden>
+        <p class="bag-total"><span>Estimated total</span><strong data-bag-total>₦0</strong></p>
+        <p class="bag-small">Delivery is confirmed separately on WhatsApp.</p>
+        <label class="bag-label" for="bag-name">Your name <span>(optional, added to the message)</span></label>
+        <input id="bag-name" class="bag-input" type="text" autocomplete="given-name" maxlength="60" data-bag-name>
+        <button class="btn btn-green btn-full" type="button" data-send>Send order on WhatsApp</button>
+        <div class="bag-preview" data-preview hidden>
+          <p class="bag-demo"><b>Concept demo:</b> no WhatsApp number is configured, so nothing is sent. Here is the message a customer would send:</p>
+          <pre data-preview-text></pre>
+          <button class="btn btn-line btn-full" type="button" data-copy>Copy message</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
