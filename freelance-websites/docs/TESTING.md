@@ -40,7 +40,7 @@ Also built in (not all automatically testable): skip links, visible `:focus-visi
 
 ## 3. JavaScript behaviour (scripted interaction tests)
 
-All 41 checks passed. (Two checks first reported a failure because the test expected the wrong order total; the page's total of ₦51,000 was correct.)
+All 40 checks passed. (Two checks first reported a failure because the test expected the wrong order total; the page's total of ₦51,000 was correct.)
 
 | Site | Verified |
 | --- | --- |
